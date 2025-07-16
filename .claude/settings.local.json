@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx @tarojs/cli init:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(rm:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(npm run dev:h5:*)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:192.168.11.239)"
+    ],
+    "deny": []
+  }
+}
